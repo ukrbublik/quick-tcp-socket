@@ -1,0 +1,29 @@
+{
+  "name": "quick-tcp-socket",
+  "version": "1.0",
+  "description": "Simple wrapper for net.Socket to send/receive JSON objects and Buffer streams.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ukrbublik/quick-tcp-socket"
+  },
+  "keywords": [
+    "socket",
+    "tcp"
+  ],
+  "author": {
+    "name": "Oblogin Denis",
+    "email": "ukrbublik@gmail.com",
+    "url": "https://github.com/ukrbublik"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ukrbublik/quick-tcp-socket/issues"
+  },
+  "homepage": "https://github.com/ukrbublik/quick-tcp-socket"
+}
