@@ -1,6 +1,6 @@
 {
   "name": "quick-tcp-socket",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Simple wrapper for net.Socket to send/receive JSON objects and Buffer streams.",
   "main": "index.js",
   "repository": {
