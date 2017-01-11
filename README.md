@@ -7,8 +7,13 @@ Made as much faster alternative to socket.io + socket.io-stream<br>
 $ npm install quick-tcp-socket
 ```
 
-# Example
+# Use example
 ``` js
+
+const {
+  TcpSocket, ReadBufferStream, WriteBufferStream
+} = require('quick-tcp-socket');
+
 //
 // Client
 //
