@@ -27,7 +27,7 @@ let clientSocket = net.connect(port, host, () => {
     // data == {a: 1, b: 2}
   });
 
-  client.on('close', () => { //disconnected });
+  client.on('close', () => { /*disconnected*/ });
   client.on('error', (err) => { console.error(err); });
 
   let readStream = fs.createReadStream("file.txt");
@@ -56,10 +56,9 @@ net.createServer({}, (clientSocket) => {
     });
   });
 
-  client.on('close', () => { //client disconnected });
+  client.on('close', () => { /*client disconnected*/ });
   client.on('error', (err) => { console.error(err); });
 });
 ```
 
-# API
-todo...
+
